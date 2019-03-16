@@ -26,4 +26,4 @@ fi
 echo $((100*COUNTER/NUMLINES ))
 sleep 0.015
 done <  membersgood.csv)| whiptail --title 'TELOS DAC' --gauge 'Calculating...' 6 60 0 
-echo "Finished"
+echo "EOSACCTSDATA.csv generated"
